@@ -288,6 +288,11 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#batch-computing-with-cloudknot">
+   Batch computing with Cloudknot
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#cold-storage-in-glacier">
    “Cold” storage in Glacier
   </a>
@@ -306,6 +311,12 @@
   <div class="section" id="amazon-web-services">
 <h1>Amazon Web Services<a class="headerlink" href="#amazon-web-services" title="Permalink to this headline">¶</a></h1>
 <p>We use Amazon Web Services for compute and storage.</p>
+<div class="section" id="batch-computing-with-cloudknot">
+<h2>Batch computing with Cloudknot<a class="headerlink" href="#batch-computing-with-cloudknot" title="Permalink to this headline">¶</a></h2>
+<p>We use <a class="reference external" href="https://nrdg.github.io/cloudknot/">Cloudknot</a> for batch computing. Use of CK requires additional permissions, so you will
+have to ask an administrator to provide these permissions, before you can run anything.</p>
+<p>Always use spot instances with several retries.</p>
+</div>
 <div class="section" id="cold-storage-in-glacier">
 <h2>“Cold” storage in Glacier<a class="headerlink" href="#cold-storage-in-glacier" title="Permalink to this headline">¶</a></h2>
 <p>When a dataset is not routinely accessed, it should be moved to cold storage in <a class="reference external" href="https://aws.amazon.com/glacier/">Glacier</a></p>
