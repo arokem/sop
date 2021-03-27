@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -44,7 +44,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -235,21 +235,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -267,22 +267,38 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#authorship">
+   Authorship
+  </a>
+ </li>
+</ul>
+
+        </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -292,6 +308,41 @@
                 
   <div class="section" id="papers">
 <h1>Papers<a class="headerlink" href="#papers" title="Permalink to this headline">¶</a></h1>
+<p>The bad news is that writing full papers is one of the hardest things we do.</p>
+<p>Where you start writing the paper is often one of the hardest things to decide.
+The good thing is that by the time you are writing the paper, you have probably
+already done a lot of work that could serve as a starting point.</p>
+<p>A good place to start writing is deciding on the figures that would appear in
+the paper. They don’t necessarily have to be finalized or fully polished, but a
+sequence of figures that contain the main results that will appear in the paper
+often start to tell the story that the paper will eventually tell.</p>
+<p>This then allows you to write down the main results in sequence and see whether
+the logic flows.</p>
+<p>Another good place to start is by writing down the methods.</p>
+<p>Share ideas with co-authors and collaborators early on in the process A google
+doc, Overleaf doc, or a GitHub repository are all good places for people to
+read/comment/suggest.</p>
+<div class="section" id="authorship">
+<h2>Authorship<a class="headerlink" href="#authorship" title="Permalink to this headline">¶</a></h2>
+<p>Authorship and credit are a sensitive and touchy subject. Authorship should be
+discussed early and often, to avoid some of the pitfalls that arise from making
+assumptions about authorship. Ideally, project leadership/”ownership” will be
+clear enough, so that the identity of the first author(s) will be obvious, but
+particular caution needs to be taken in cases where different people are
+collaborating closely to generate results that require extensive methods and/or
+infrastructure development. In these cases, we can consider shared first
+authorship. But this needs to be clarified early on in the development of the
+project, so that different people can determine the level of their involvement
+if a single first authorship is determined to be the best course of action.</p>
+<p>Regarding secondary and collaborating authorships (authorship positions other
+than the first and last): Overall, the general philosophy we take is to be
+inclusive in authorship. This means that folks who contributed to the work
+described in a manuscript while it was being developed can be co-authors if they
+are interested. This rewards and encourages people to be involved in other
+people’s projects and to help move that work along. It is primarily the
+responsibility of the first and last author to pay attention to the role that
+different people are playing.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -316,15 +367,15 @@
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="posters.html" title="previous page">Posters</a>
     <a class='right-next' id="next-link" href="notebooks.html" title="next page">Publishing with Jupter notebooks</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
